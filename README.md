@@ -1,16 +1,28 @@
-# openslava
+# Cross-Channel Openslava demo
 
-A new Flutter project.
+This project showcases a 15min live-coded cross-platform app presented at OpenSlava
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- Install FLutter (https://flutter.dev/docs/get-started/install)
+- Setup Flutter for Web (https://flutter.dev/docs/get-started/web)
 
-A few resources to get you started if this is your first Flutter project:
+## Run it
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### iOS
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter run -d ios
+```
+
+### Web
+
+```bash
+flutter run -d chrome
+```
+
+### Native MacOs
+
+```bash
+flutter run -d macos
+```
